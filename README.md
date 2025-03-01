@@ -1,4 +1,5 @@
- "MagicLayout". a quick & dirty way to set numeric layout values in swiftUI, such as padding. I found it easier than previews. It doesn't do anything more than what previews claim to do 😄  : IE, change values on the fly and see the results.
+ "MagicLayout". a quick & dirty method for fine adjustment of numeric values in swiftUI, such as padding. I found it easier than previews. It doesn't do anything more than what previews claim to do 😄  : IE, change values on the fly and see the results.
+
  
 for MacOS/SwiftUI
 
@@ -17,6 +18,11 @@ for MacOS/SwiftUI
 	.font(.system(size: magic.m2(16))) // make font size adjustable
 ```
 
+You can also use a magic var as a color.
 
 This relies on my public package, "SingleWindow" which creates the floating window, and adds a menu item to open it.
 magiclayout isn't set up as a package yet. just grab the source file. SingleWindow is a swift package.
+
+probably not thread safe.
+
+certified 100% low-effort
