@@ -21,18 +21,6 @@ import SingleWindow
  ** Relies on SingleWindow:
  https://github.com/S1D1T1/singlewindow
 
- annoyance: Float - CGFloat conversion. because of TextField formatter.
-
- dynamic # of magic vars
-   - make array
- alt click on stepper for fine tuning
-
- revert / compare
-
-copy values
-
- post & give away.
-
  Usage:
  SomeView()
  .padding(.leading,magic.m1(10))
